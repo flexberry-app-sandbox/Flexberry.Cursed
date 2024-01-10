@@ -1,0 +1,31 @@
+﻿{
+  "propertyLookup": [
+    {
+      "master": null,
+      "displayAttributeName": null,
+      "required": false,
+      "relationName": "Сотрудник",
+      "projection": "СотрудникL",
+      "detailModelName": null
+    },
+    {
+      "master": "товар",
+      "displayAttributeName": "название",
+      "required": true,
+      "relationName": "СтрокаЗаказа.Товар",
+      "projection": "ТоварL",
+      "detailModelName": "i-i-s-cursed-строка-заказа"
+    }
+  ],
+  "external": false,
+  "caption": "Заказ",
+  "name": "IISCursedЗаказE",
+  "className": "ЗаказE",
+  "attrs": [],
+  "projections": [
+    {
+      "modelName": "i-i-s-cursed-заказ",
+      "modelProjection": "ЗаказE"
+    }
+  ]
+}

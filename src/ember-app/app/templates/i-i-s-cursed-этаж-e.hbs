@@ -1,0 +1,55 @@
+<h3 class="ui header">{{t "forms.i-i-s-cursed-этаж-e.caption"}}</h3>
+
+<form class="ui form flexberry-vertical-form" role="form">
+  {{flexberry-error error=error}}
+  <div class="field">
+    <div class="flexberry-edit-panel">
+      {{#unless readonly}}
+        <button class="ui button save-button" {{action "save"}}>
+          {{t "forms.edit-form.save-button-text"}}
+        </button>
+        {{#unless model.isNew}}
+          <button class="ui button save-del-button" {{action "delete"}}>
+            {{t "forms.edit-form.delete-button-text"}}
+          </button>
+        {{/unless}}
+      {{/unless}}
+      <button class="ui button close-button" {{action "close"}}>
+        {{t "forms.edit-form.close-button-text"}}
+      </button>
+    </div>
+  </div>
+  <div class="field flexberry-validationsummary-container">
+    <div class="sixteen wide">
+      {{flexberry-validationsummary errors=(v-get validationObject "messages")}}
+    </div>
+  </div>
+  <div class="field">
+    {{flexberry-field
+      readonly=readonly
+      value=model.номерЭтажа
+      class=(if (v-get validationModel "номерЭтажа" "isInvalid") "error")
+      label=(t "forms.i-i-s-cursed-этаж-e.номерЭтажа-caption")
+      data-test-i-i-s-cursed-этаж-e-номерЭтажа=true
+    }}
+    {{flexberry-validationmessage error=(v-get validationModel "номерЭтажа" "message")}}
+  </div>
+  <div class="field">
+    <label>{{t "forms.i-i-s-cursed-этаж-e.ряд-caption"}}</label>
+    {{flexberry-lookup
+      choose="showLookupDialog"
+      remove="removeLookupValue"
+      value=model.ряд
+      displayAttributeName="номерРяда"
+      autocomplete=true
+      relationName="ряд"
+      projection="РядL"
+      title=(t "forms.i-i-s-cursed-этаж-e.ряд-caption")
+      readonly=readonly
+      componentName="рядLookup"
+      class=(if (v-get validationModel "ряд" "isInvalid") "error")
+      data-test-i-i-s-cursed-этаж-e-ряд=true
+    }}
+    {{flexberry-validationmessage error=(v-get validationModel "ряд" "message")}}
+  </div>
+</form>

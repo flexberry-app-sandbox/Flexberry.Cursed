@@ -1,0 +1,106 @@
+﻿{
+  "name": "IISCursedЯчейка",
+  "modelName": "i-i-s-cursed-ячейка",
+  "className": "Ячейка",
+  "nameSpace": "IIS.Cursed",
+  "parentModelName": null,
+  "parentClassName": null,
+  "attrs": [
+    {
+      "name": "номерЯчейки",
+      "type": "string",
+      "flexberryType": "string",
+      "notNull": false,
+      "defaultValue": "",
+      "stored": true,
+      "ordered": false
+    }
+  ],
+  "belongsTo": [
+    {
+      "polymorphic": false,
+      "presence": true,
+      "name": "этаж",
+      "relatedTo": "i-i-s-cursed-этаж",
+      "inverse": null
+    }
+  ],
+  "hasMany": [],
+  "projections": [
+    {
+      "name": "ЯчейкаE",
+      "modelName": "i-i-s-cursed-ячейка",
+      "attrs": [
+        {
+          "name": "номерЯчейки",
+          "caption": "Номер ячейки",
+          "hidden": false,
+          "index": 0
+        }
+      ],
+      "belongsTo": [
+        {
+          "lookupValue": "НомерЭтажа",
+          "lookupValueField": "номерЭтажа",
+          "relationName": "Этаж",
+          "belongsTo": [],
+          "hidden": false,
+          "attrs": [
+            {
+              "name": "номерЭтажа",
+              "caption": "Номер этажа",
+              "hidden": true,
+              "index": 2
+            }
+          ],
+          "index": 1,
+          "type": "standard",
+          "caption": "Этаж",
+          "name": "этаж",
+          "relatedTo": "i-i-s-cursed-этаж",
+          "inverse": null
+        }
+      ],
+      "hasMany": []
+    },
+    {
+      "name": "ЯчейкаL",
+      "modelName": "i-i-s-cursed-ячейка",
+      "attrs": [
+        {
+          "name": "номерЯчейки",
+          "caption": "Номер ячейки",
+          "hidden": false,
+          "index": 0
+        }
+      ],
+      "belongsTo": [
+        {
+          "lookupValue": null,
+          "lookupValueField": null,
+          "relationName": "Этаж",
+          "belongsTo": [],
+          "hidden": false,
+          "attrs": [
+            {
+              "name": "номерЭтажа",
+              "caption": "Номер этажа",
+              "hidden": false,
+              "index": 1
+            }
+          ],
+          "index": -1,
+          "type": "default",
+          "caption": "Номер этажа",
+          "name": "этаж",
+          "relatedTo": "i-i-s-cursed-этаж",
+          "inverse": null
+        }
+      ],
+      "hasMany": []
+    }
+  ],
+  "stored": true,
+  "offline": true,
+  "external": false
+}

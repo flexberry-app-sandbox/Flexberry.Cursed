@@ -1,0 +1,14 @@
+﻿{
+  "propertyLookup": [],
+  "external": false,
+  "caption": "Ряд",
+  "name": "IISCursedРядE",
+  "className": "РядE",
+  "attrs": [],
+  "projections": [
+    {
+      "modelName": "i-i-s-cursed-ряд",
+      "modelProjection": "РядE"
+    }
+  ]
+}

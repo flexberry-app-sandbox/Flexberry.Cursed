@@ -1,0 +1,15 @@
+﻿{
+  "newForm": "i-i-s-cursed-ячейка-e",
+  "editForm": "i-i-s-cursed-ячейка-e",
+  "external": false,
+  "caption": "Ячейка",
+  "name": "IISCursedЯчейкаL",
+  "className": "ЯчейкаL",
+  "attrs": [],
+  "projections": [
+    {
+      "modelName": "i-i-s-cursed-ячейка",
+      "modelProjection": "ЯчейкаL"
+    }
+  ]
+}

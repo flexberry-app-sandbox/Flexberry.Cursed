@@ -1,0 +1,102 @@
+﻿{
+  "applicationCaption": "Cursed",
+  "applicationTitle": "Cursed",
+  "items": [
+    {
+      "link": null,
+      "menuName": "cursed",
+      "caption": "Cursed",
+      "title": "Cursed",
+      "children": [
+        {
+          "link": null,
+          "menuName": "сотрудники",
+          "caption": "Сотрудники",
+          "title": "Сотрудники",
+          "children": [
+            {
+              "link": "i-i-s-cursed-сотрудник-l",
+              "menuName": null,
+              "caption": "Сотрудник",
+              "title": "",
+              "children": null
+            }
+          ]
+        },
+        {
+          "link": null,
+          "menuName": "информация-о-заказе",
+          "caption": "Информация о заказе",
+          "title": "Информация о заказе",
+          "children": [
+            {
+              "link": "i-i-s-cursed-заказ-l",
+              "menuName": null,
+              "caption": "Заказ",
+              "title": "",
+              "children": null
+            },
+            {
+              "link": "i-i-s-cursed-документ-l",
+              "menuName": null,
+              "caption": "Документ",
+              "title": "",
+              "children": null
+            },
+            {
+              "link": "i-i-s-cursed-накладная-l",
+              "menuName": null,
+              "caption": "Накладная",
+              "title": "",
+              "children": null
+            }
+          ]
+        },
+        {
+          "link": null,
+          "menuName": "товар-на-складе",
+          "caption": "Товар на складе",
+          "title": "Товар на складе",
+          "children": [
+            {
+              "link": "i-i-s-cursed-товар-l",
+              "menuName": null,
+              "caption": "Товар",
+              "title": "",
+              "children": null
+            },
+            {
+              "link": "i-i-s-cursed-склад-l",
+              "menuName": null,
+              "caption": "Склад",
+              "title": "",
+              "children": null
+            },
+            {
+              "link": "i-i-s-cursed-ряд-l",
+              "menuName": null,
+              "caption": "Ряд",
+              "title": "",
+              "children": null
+            },
+            {
+              "link": "i-i-s-cursed-этаж-l",
+              "menuName": null,
+              "caption": "Этаж",
+              "title": "",
+              "children": null
+            },
+            {
+              "link": "i-i-s-cursed-ячейка-l",
+              "menuName": null,
+              "caption": "Ячейка",
+              "title": "",
+              "children": null
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "mobile": true
+}

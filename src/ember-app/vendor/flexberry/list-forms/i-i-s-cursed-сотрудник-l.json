@@ -1,0 +1,15 @@
+﻿{
+  "newForm": "i-i-s-cursed-сотрудник-e",
+  "editForm": "i-i-s-cursed-сотрудник-e",
+  "external": false,
+  "caption": "Сотрудник",
+  "name": "IISCursedСотрудникL",
+  "className": "СотрудникL",
+  "attrs": [],
+  "projections": [
+    {
+      "modelName": "i-i-s-cursed-сотрудник",
+      "modelProjection": "СотрудникL"
+    }
+  ]
+}

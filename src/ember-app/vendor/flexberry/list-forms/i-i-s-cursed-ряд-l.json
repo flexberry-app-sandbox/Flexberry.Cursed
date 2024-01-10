@@ -1,0 +1,15 @@
+﻿{
+  "newForm": "i-i-s-cursed-ряд-e",
+  "editForm": "i-i-s-cursed-ряд-e",
+  "external": false,
+  "caption": "Ряд",
+  "name": "IISCursedРядL",
+  "className": "РядL",
+  "attrs": [],
+  "projections": [
+    {
+      "modelName": "i-i-s-cursed-ряд",
+      "modelProjection": "РядL"
+    }
+  ]
+}

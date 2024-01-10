@@ -1,0 +1,15 @@
+﻿{
+  "newForm": "i-i-s-cursed-этаж-e",
+  "editForm": "i-i-s-cursed-этаж-e",
+  "external": false,
+  "caption": "Этаж",
+  "name": "IISCursedЭтажL",
+  "className": "ЭтажL",
+  "attrs": [],
+  "projections": [
+    {
+      "modelName": "i-i-s-cursed-этаж",
+      "modelProjection": "ЭтажL"
+    }
+  ]
+}

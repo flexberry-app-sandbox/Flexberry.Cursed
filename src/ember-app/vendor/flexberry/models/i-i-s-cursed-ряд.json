@@ -1,0 +1,54 @@
+﻿{
+  "name": "IISCursedРяд",
+  "modelName": "i-i-s-cursed-ряд",
+  "className": "Ряд",
+  "nameSpace": "IIS.Cursed",
+  "parentModelName": null,
+  "parentClassName": null,
+  "attrs": [
+    {
+      "name": "номерРяда",
+      "type": "number",
+      "flexberryType": "int",
+      "notNull": false,
+      "defaultValue": "",
+      "stored": true,
+      "ordered": false
+    }
+  ],
+  "belongsTo": [],
+  "hasMany": [],
+  "projections": [
+    {
+      "name": "РядE",
+      "modelName": "i-i-s-cursed-ряд",
+      "attrs": [
+        {
+          "name": "номерРяда",
+          "caption": "Номер ряда",
+          "hidden": false,
+          "index": 0
+        }
+      ],
+      "belongsTo": [],
+      "hasMany": []
+    },
+    {
+      "name": "РядL",
+      "modelName": "i-i-s-cursed-ряд",
+      "attrs": [
+        {
+          "name": "номерРяда",
+          "caption": "Номер ряда",
+          "hidden": false,
+          "index": 0
+        }
+      ],
+      "belongsTo": [],
+      "hasMany": []
+    }
+  ],
+  "stored": true,
+  "offline": true,
+  "external": false
+}

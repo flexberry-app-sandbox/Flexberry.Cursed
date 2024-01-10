@@ -1,0 +1,106 @@
+﻿{
+  "name": "IISCursedЭтаж",
+  "modelName": "i-i-s-cursed-этаж",
+  "className": "Этаж",
+  "nameSpace": "IIS.Cursed",
+  "parentModelName": null,
+  "parentClassName": null,
+  "attrs": [
+    {
+      "name": "номерЭтажа",
+      "type": "number",
+      "flexberryType": "int",
+      "notNull": false,
+      "defaultValue": "",
+      "stored": true,
+      "ordered": false
+    }
+  ],
+  "belongsTo": [
+    {
+      "polymorphic": false,
+      "presence": true,
+      "name": "ряд",
+      "relatedTo": "i-i-s-cursed-ряд",
+      "inverse": null
+    }
+  ],
+  "hasMany": [],
+  "projections": [
+    {
+      "name": "ЭтажE",
+      "modelName": "i-i-s-cursed-этаж",
+      "attrs": [
+        {
+          "name": "номерЭтажа",
+          "caption": "Номер этажа",
+          "hidden": false,
+          "index": 0
+        }
+      ],
+      "belongsTo": [
+        {
+          "lookupValue": "НомерРяда",
+          "lookupValueField": "номерРяда",
+          "relationName": "Ряд",
+          "belongsTo": [],
+          "hidden": false,
+          "attrs": [
+            {
+              "name": "номерРяда",
+              "caption": "Номер ряда",
+              "hidden": true,
+              "index": 2
+            }
+          ],
+          "index": 1,
+          "type": "standard",
+          "caption": "Ряд",
+          "name": "ряд",
+          "relatedTo": "i-i-s-cursed-ряд",
+          "inverse": null
+        }
+      ],
+      "hasMany": []
+    },
+    {
+      "name": "ЭтажL",
+      "modelName": "i-i-s-cursed-этаж",
+      "attrs": [
+        {
+          "name": "номерЭтажа",
+          "caption": "Номер этажа",
+          "hidden": false,
+          "index": 0
+        }
+      ],
+      "belongsTo": [
+        {
+          "lookupValue": null,
+          "lookupValueField": null,
+          "relationName": "Ряд",
+          "belongsTo": [],
+          "hidden": false,
+          "attrs": [
+            {
+              "name": "номерРяда",
+              "caption": "Номер ряда",
+              "hidden": false,
+              "index": 1
+            }
+          ],
+          "index": -1,
+          "type": "default",
+          "caption": "Номер ряда",
+          "name": "ряд",
+          "relatedTo": "i-i-s-cursed-ряд",
+          "inverse": null
+        }
+      ],
+      "hasMany": []
+    }
+  ],
+  "stored": true,
+  "offline": true,
+  "external": false
+}

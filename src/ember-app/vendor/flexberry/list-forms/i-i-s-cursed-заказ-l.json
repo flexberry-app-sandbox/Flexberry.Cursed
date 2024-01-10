@@ -1,0 +1,15 @@
+﻿{
+  "newForm": "i-i-s-cursed-заказ-e",
+  "editForm": "i-i-s-cursed-заказ-e",
+  "external": false,
+  "caption": "Заказ",
+  "name": "IISCursedЗаказL",
+  "className": "ЗаказL",
+  "attrs": [],
+  "projections": [
+    {
+      "modelName": "i-i-s-cursed-заказ",
+      "modelProjection": "ЗаказL"
+    }
+  ]
+}

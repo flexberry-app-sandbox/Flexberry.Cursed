@@ -1,0 +1,23 @@
+﻿{
+  "propertyLookup": [
+    {
+      "master": null,
+      "displayAttributeName": null,
+      "required": false,
+      "relationName": "Ряд",
+      "projection": "РядL",
+      "detailModelName": null
+    }
+  ],
+  "external": false,
+  "caption": "Этаж",
+  "name": "IISCursedЭтажE",
+  "className": "ЭтажE",
+  "attrs": [],
+  "projections": [
+    {
+      "modelName": "i-i-s-cursed-этаж",
+      "modelProjection": "ЭтажE"
+    }
+  ]
+}

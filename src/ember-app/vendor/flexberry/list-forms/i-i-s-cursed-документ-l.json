@@ -1,0 +1,15 @@
+﻿{
+  "newForm": "i-i-s-cursed-документ-e",
+  "editForm": "i-i-s-cursed-документ-e",
+  "external": false,
+  "caption": "Документ",
+  "name": "IISCursedДокументL",
+  "className": "ДокументL",
+  "attrs": [],
+  "projections": [
+    {
+      "modelName": "i-i-s-cursed-документ",
+      "modelProjection": "ДокументL"
+    }
+  ]
+}

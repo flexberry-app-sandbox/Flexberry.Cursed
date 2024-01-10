@@ -1,0 +1,15 @@
+﻿{
+  "newForm": "i-i-s-cursed-товар-e",
+  "editForm": "i-i-s-cursed-товар-e",
+  "external": false,
+  "caption": "Товар",
+  "name": "IISCursedТоварL",
+  "className": "ТоварL",
+  "attrs": [],
+  "projections": [
+    {
+      "modelName": "i-i-s-cursed-товар",
+      "modelProjection": "ТоварL"
+    }
+  ]
+}

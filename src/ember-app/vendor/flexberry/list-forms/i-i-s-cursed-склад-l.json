@@ -1,0 +1,15 @@
+﻿{
+  "newForm": "i-i-s-cursed-склад-e",
+  "editForm": "i-i-s-cursed-склад-e",
+  "external": false,
+  "caption": "Склад",
+  "name": "IISCursedСкладL",
+  "className": "СкладL",
+  "attrs": [],
+  "projections": [
+    {
+      "modelName": "i-i-s-cursed-склад",
+      "modelProjection": "СкладL"
+    }
+  ]
+}

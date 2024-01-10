@@ -1,0 +1,23 @@
+﻿{
+  "propertyLookup": [
+    {
+      "master": null,
+      "displayAttributeName": null,
+      "required": false,
+      "relationName": "Этаж",
+      "projection": "ЭтажL",
+      "detailModelName": null
+    }
+  ],
+  "external": false,
+  "caption": "Ячейка",
+  "name": "IISCursedЯчейкаE",
+  "className": "ЯчейкаE",
+  "attrs": [],
+  "projections": [
+    {
+      "modelName": "i-i-s-cursed-ячейка",
+      "modelProjection": "ЯчейкаE"
+    }
+  ]
+}

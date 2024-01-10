@@ -1,0 +1,14 @@
+﻿{
+  "propertyLookup": [],
+  "external": false,
+  "caption": "Документ",
+  "name": "IISCursedДокументE",
+  "className": "ДокументE",
+  "attrs": [],
+  "projections": [
+    {
+      "modelName": "i-i-s-cursed-документ",
+      "modelProjection": "ДокументE"
+    }
+  ]
+}

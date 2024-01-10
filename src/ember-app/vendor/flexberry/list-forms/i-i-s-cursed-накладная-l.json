@@ -1,0 +1,15 @@
+﻿{
+  "newForm": "i-i-s-cursed-накладная-e",
+  "editForm": "i-i-s-cursed-накладная-e",
+  "external": false,
+  "caption": "Накладная",
+  "name": "IISCursedНакладнаяL",
+  "className": "НакладнаяL",
+  "attrs": [],
+  "projections": [
+    {
+      "modelName": "i-i-s-cursed-накладная",
+      "modelProjection": "НакладнаяL"
+    }
+  ]
+}

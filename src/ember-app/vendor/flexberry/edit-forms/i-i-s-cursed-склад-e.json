@@ -1,0 +1,39 @@
+﻿{
+  "propertyLookup": [
+    {
+      "master": null,
+      "displayAttributeName": null,
+      "required": false,
+      "relationName": "Сотрудник",
+      "projection": "СотрудникL",
+      "detailModelName": null
+    },
+    {
+      "master": "ячейка",
+      "displayAttributeName": "номерЯчейки",
+      "required": true,
+      "relationName": "ТоварНаСкладе.Ячейка",
+      "projection": "ЯчейкаL",
+      "detailModelName": "i-i-s-cursed-товар-на-складе"
+    },
+    {
+      "master": "товар",
+      "displayAttributeName": "название",
+      "required": true,
+      "relationName": "ТоварНаСкладе.Товар",
+      "projection": "ТоварL",
+      "detailModelName": "i-i-s-cursed-товар-на-складе"
+    }
+  ],
+  "external": false,
+  "caption": "Склад",
+  "name": "IISCursedСкладE",
+  "className": "СкладE",
+  "attrs": [],
+  "projections": [
+    {
+      "modelName": "i-i-s-cursed-склад",
+      "modelProjection": "СкладE"
+    }
+  ]
+}
